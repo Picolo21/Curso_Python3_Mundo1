@@ -4,7 +4,7 @@
 # 2º Em que posição ela aparece pela primeira vez
 # 3º Em que posição ela aparece pela última vez
 
-phrase = input('Digite uma frase qualquer: ')
+phrase = input('Digite uma frase qualquer: ').strip()
 phrase = phrase.upper()
 
 print(f'A letra "A" aparece {phrase.count('A')} vezes')
