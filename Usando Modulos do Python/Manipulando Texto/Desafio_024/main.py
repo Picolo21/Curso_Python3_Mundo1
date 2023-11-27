@@ -2,6 +2,6 @@
 # ou não com o nome "SANTO"
 
 cityName = input('Digite o nome da sua cidade: ')
-cityName = cityName.upper()
+cityName = cityName.upper().strip()
 
 print(f'{cityName[0:5] == 'SANTO'}')
