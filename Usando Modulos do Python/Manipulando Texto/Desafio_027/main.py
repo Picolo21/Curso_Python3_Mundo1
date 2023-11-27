@@ -5,7 +5,7 @@
 # Primeiro = Ana
 # Último = Souza
 
-name = input('Digite seu nome completo: ')
+name = input('Digite seu nome completo: ').strip()
 name = name.split()
 
 print(f'Primeiro = {name[0]}')
