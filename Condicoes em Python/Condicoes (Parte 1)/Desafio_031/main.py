@@ -14,5 +14,3 @@ elif distance <= parameterDistance:
 else:
     value = distance * 0.45
     print(f'O valor da sua passagem será de R$ {value:.2f}')
-
-
