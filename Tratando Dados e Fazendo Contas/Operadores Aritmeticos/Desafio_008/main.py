@@ -2,4 +2,4 @@
 
 number = float(input('Digite um valor em metros para calcular a conversão para centímetros e milímetros: '))
 
-print(f'{number} m é igual a {number * 100} cm ou {number * 1000} mm')
+print(f'\033[34m{number:.2f}\033[m m é igual a \033[32m{number * 100}\033[m cm ou \033[33m{number * 1000}\033[m mm')

@@ -6,4 +6,4 @@
 quotationDollar = 3.27
 valueInWallet = float(input('Informe o valor que você possui na sua carteira: '))
 
-print(f'Com R$ {valueInWallet:.2f} você pode comprar US$ {(valueInWallet / quotationDollar):.2f}')
+print(f'Com \033[34mR$ {valueInWallet:.2f}\033[m você pode comprar \033[32mUS$ {(valueInWallet / quotationDollar):.2f}\033[m')

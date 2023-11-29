@@ -7,4 +7,4 @@ width = float(input('Digite o valor da largura da parede: '))
 
 area = height * width
 
-print(f'A área da parede = {area:.2f} m² e a quantidade de tinta necessaria para pintá-la será de {(area / 2):.2f} L')
+print(f'A área da parede = \033[34m{area:.2f} m²\033[m e a quantidade de tinta necessaria para pintá-la será de \033[33m{(area / 2):.2f} L\033[m')
