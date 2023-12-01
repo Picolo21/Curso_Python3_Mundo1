@@ -7,6 +7,6 @@
 phrase = input('Digite uma frase qualquer: ').strip()
 phrase = phrase.upper()
 
-print(f'A letra "A" aparece {phrase.count('A')} vezes')
-print(f'A letra "A" aparece pela 1ª vez na posição {phrase.find('A')}')
-print(f'A letra "A" aparece pela última vez na posição {phrase.rfind('A')}')
+print(f'A letra "A" aparece \033[33m{phrase.count('A')}\033[m vezes')
+print(f'A letra "A" aparece pela 1ª vez na posição \033[34m{phrase.find('A') + 1}\033[m')
+print(f'A letra "A" aparece pela última vez na posição \033[32m{phrase.rfind('A') + 1}\033[m')

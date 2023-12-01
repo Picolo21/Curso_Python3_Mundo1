@@ -8,7 +8,7 @@
 name = input('Informe seu nome completo: ')
 nameWithoutSpace = name.replace(' ', '')
 
-print(f'1º: {name.upper()}')
-print(f'2º: {name.lower()}')
-print(f'3º: O nome completo tem {len(nameWithoutSpace)} letras sem contar os espaços')
-print(f'4°: O primeiro nome tem {len(name.split()[0])} letras')
+print(f'1º: \033[33m{name.upper()}\033[m')
+print(f'2º: \033[34m{name.lower()}\033[m')
+print(f'3º: O nome completo tem \033[31m{len(nameWithoutSpace)}\033[m letras sem contar os espaços')
+print(f'4°: O primeiro nome tem \033[35m{len(name.split()[0])}\033[m letras')

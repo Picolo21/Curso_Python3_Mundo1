@@ -15,7 +15,7 @@ d = value // 10 % 10
 c = value // 100 % 10
 m = value // 1000 % 10
 
-print(f'Unidade: {u}')
-print(f'Dezena: {d}')
-print(f'Centena: {c}')
-print(f'Milhar: {m}')
+print(f'Unidade: \033[33m{u}\033[m')
+print(f'Dezena: \033[34m{d}\033[m')
+print(f'Centena: \033[32m{c}\033[m')
+print(f'Milhar: \033[31m{m}\033[m')

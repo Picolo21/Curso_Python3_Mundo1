@@ -3,6 +3,8 @@
 name = input('Digite seu nome completo: ')
 name = name.upper()
 
-silvaStart = name.find('SILVA')
+if 'SILVA' in name:
+    print(f'Seu nome possui SILVA? \033[32m{'SILVA' in name}\033[m')
+else:
+    print(f'Seu nome possui SILVA? \033[31m{'SILVA' in name}\033[m')
 
-print(f'{name[silvaStart:(silvaStart + 5)] == 'SILVA'}')

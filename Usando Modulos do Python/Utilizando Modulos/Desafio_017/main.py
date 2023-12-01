@@ -11,10 +11,10 @@ hi2 = math.sqrt((math.pow(co, 2) + math.pow(ca, 2)))
 hi3 = math.hypot(co, ca)
 
 print('\n-> 1ª Resolução (sem IMPORT):')
-print(f'O valor da hipotenusa é igual a {hi1:.2f}')
+print(f'O valor da hipotenusa é igual a \033[33m{hi1:.2f}\033[m')
 
 print('\n-> 2ª Resolução (com IMPORT usando métodos SQRT e POW):')
-print(f'O valor da hipotenusa é igual a {hi2:.2f}')
+print(f'O valor da hipotenusa é igual a \033[34m{hi2:.2f}\033[m')
 
 print('\n-> 3ª Resolução (com IMPORT usando o método HYPOT):')
-print(f'O valor da hipotenusa é igual a {hi3:.2f}')
+print(f'O valor da hipotenusa é igual a \033[32m{hi3:.2f}\033[m')

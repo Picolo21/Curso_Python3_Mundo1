@@ -12,4 +12,4 @@ personList = [person1, person2, person3, person4]
 
 selected = random.choice(personList)
 
-print(f'O aluno(a) escolhido foi {selected}')
+print(f'O aluno(a) escolhido foi \033[32m{selected}\033[m')

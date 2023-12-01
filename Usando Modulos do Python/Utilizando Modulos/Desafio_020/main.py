@@ -12,4 +12,4 @@ personList = [person1, person2, person3, person4]
 random.shuffle(personList)
 
 print('A ordem de apresentação dos alunos será:')
-print(personList)
+print(f'\033[34m{personList}\033[m')
