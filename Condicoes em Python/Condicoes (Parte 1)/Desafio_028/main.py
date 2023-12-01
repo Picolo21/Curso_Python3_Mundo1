@@ -12,6 +12,6 @@ if userNumber < 0 or userNumber > 5:
     print(f'Você escolheu o número {userNumber}, e por ser um número fora do intervalo solicitado, você perdeu :(')
 else:
     if computerNumber == userNumber:
-        print(f'Você ganhou do computador. Vocês escolheram o número {userNumber}')
+        print(f'\033[32mPARABÉNS!!!\033[m Você ganhou do computador. Vocês escolheram o número {userNumber}')
     else:
-        print(f'Você perdeu do computador. Você escolheu {userNumber} e o computador escolheu {computerNumber}')
+        print(f'\033[31mVOCÊ PERDEU PARA O COMPUTADOR :(\033[m Você escolheu {userNumber} e o computador escolheu {computerNumber}')

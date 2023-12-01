@@ -9,10 +9,10 @@ speedLimit = 80
 userSpeed = float(input('Informe a sua velocidade (em Km/h): '))
 
 if userSpeed < 0:
-    print('Você informou uma velocidade que não é válida')
+    print('\033[31mVocê informou uma velocidade que não é válida\033[m')
 
 if userSpeed > speedLimit:
     value = (userSpeed - speedLimit) * 7
-    print(f'Você recebeu uma multa por ultrapassar o limite de velocidade. A multa será no valor de R$ {value:.2f}')
+    print(f'\033[31mVocê recebeu uma multa por ultrapassar o limite de velocidade\033[m. A multa será no valor de \033[31mR$ {value:.2f}\033[m')
 else:
-    print(f'Você está dirigindo dentro dos limites estabelecidos. Sua velocidade é de {userSpeed:.2f} Km/h')
+    print(f'\033[34mVocê está dirigindo dentro dos limites estabelecidos\033[m. Sua velocidade é de \033[32m{userSpeed:.2f} Km/h\033[m')

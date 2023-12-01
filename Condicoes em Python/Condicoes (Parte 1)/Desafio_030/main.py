@@ -3,6 +3,6 @@
 number = int(input('Informe um número inteiro qualquer: '))
 
 if number % 2 == 0:
-    print(f'O número {number} é PAR')
+    print(f'O número {number} é \033[34mPAR')
 else:
-    print(f'O número {number} é ÍMPAR')
+    print(f'O número {number} é \033[35mÍMPAR')

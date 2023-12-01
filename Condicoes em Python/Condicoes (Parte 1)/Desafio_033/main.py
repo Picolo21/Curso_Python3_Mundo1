@@ -28,6 +28,6 @@ else:
         largestNumber = numberThree
         smallestNumber = numberOne
 
-print(f'Entre os números {numberOne:.2f}, {numberTwo:.2f} e {numberThree:.2f}:')
-print(f'O MAIOR é o número {largestNumber}')
-print(f'O MENOR é o número {smallestNumber}')
+print(f'Entre os números \033[34m{numberOne:.2f}\033[m, \033[31m{numberTwo:.2f}\033[m e \033[35m{numberThree:.2f}\033[m:')
+print(f'\033[32mO MAIOR é o número {largestNumber:.2f}')
+print(f'\033[33mO MENOR é o número {smallestNumber:.2f}')

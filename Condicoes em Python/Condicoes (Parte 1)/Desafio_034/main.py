@@ -13,4 +13,4 @@ if salary <= parameterSalary:
 else:
     salary = salary + (salary * (10 / 100))
 
-print(f'\nSeu salário passará a ser de R$ {salary:.2f}')
+print(f'\nSeu salário passará a ser de \033[32mR$ {salary:.2f}')

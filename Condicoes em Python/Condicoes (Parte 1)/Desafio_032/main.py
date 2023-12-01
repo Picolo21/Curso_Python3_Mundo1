@@ -9,8 +9,8 @@ if year == 0:
 
 if year % 4 == 0:
     if year % 100 != 0 or year % 400 == 0:
-        print(f'O ano {year} É BISSEXTO')
+        print(f'O ano \033[34m{year} É BISSEXTO')
     else:
-        print(f'O ano {year} NÃO É BISSEXTO')
+        print(f'O ano \033[31m{year} NÃO É BISSEXTO')
 else:
-    print(f'O ano {year} NÃO É BISSEXTO')
+    print(f'O ano \033[31m{year} NÃO É BISSEXTO')
